@@ -2,6 +2,13 @@
   font-family: "CommitMono Nerd Font" !important;
 }
 
+#TabsToolbar #firefox-view-button[open] > .toolbarbutton-icon, .tab-background:is([selected], [multiselected]) {
+	box-shadow: none !important;
+  border-top: 1px solid #ffffff2d !important;
+	border-bottom: 1px solid #0000002d !important;
+  background-color: rgba(255, 255, 255, 0.17) !important;
+}
+
 #navigator-toolbox{
   width: 274px !important;
   max-width: 270px !important;
@@ -44,10 +51,6 @@
   border: 1px solid var(--zen-colors-border) !important;
 }
 
-#browser{
-  background: none !important;
-}
-
 @media (-moz-bool-pref:"zen.view.compact") {
   #zen-appcontent-navbar-container{
     display: none !important;
@@ -61,12 +64,17 @@
     overflow: hidden !important;
     --zen-element-separation: -1px !important;
   }
+  
+  #browser{
+  background: none !important;
+}
 }
 
 @media not (-moz-bool-pref:"zen.view.compact") {
   .browserSidebarContainer{
         border-radius: var(--zen-border-radius) !important;;
   } 
+
 }
 
 @media (-moz-bool-pref: "zen.tabs.vertical") {
