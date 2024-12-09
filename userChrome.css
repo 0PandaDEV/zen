@@ -2,6 +2,24 @@
   font-family: "CommitMono Nerd Font" !important;
 }
 
+#navigator-toolbox{
+  width: 274px !important;
+  max-width: 270px !important;
+}
+
+#titlebar{
+  padding-inline: var(--zen-toolbox-padding) !important;;
+}
+
+#nav-bar{
+  margin-inline: var(--zen-toolbox-padding) !important;
+  width: calc(100% - (var(--zen-toolbox-padding) * 2)) !important;
+}
+
+#zen-sidebar-splitter, #zen-appcontent-navbar-container{
+  display: none !important;
+}
+
 #zen-appcontent-wrapper{
   margin-top: var(--zen-element-separation) !important;
 }
@@ -58,7 +76,6 @@
     }
   }
 }
-
 
 #new-tab-button, #reader-mode-button, #tracking-protection-icon-container, #star-button-box{
   display: none !important;
