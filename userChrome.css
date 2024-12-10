@@ -2,37 +2,40 @@
   font-family: "CommitMono Nerd Font" !important;
 }
 
-#TabsToolbar #firefox-view-button[open] > .toolbarbutton-icon, .tab-background:is([selected], [multiselected]) {
-	box-shadow: none !important;
+#TabsToolbar #firefox-view-button[open] > .toolbarbutton-icon,
+.tab-background:is([selected], [multiselected]) {
+  box-shadow: none !important;
   border-top: 1px solid #ffffff2d !important;
-	border-bottom: 1px solid #0000002d !important;
+  border-bottom: 1px solid #0000002d !important;
   background-color: rgba(255, 255, 255, 0.17) !important;
 }
 
-#navigator-toolbox{
+#navigator-toolbox {
   width: 274px !important;
   max-width: 270px !important;
 }
 
-#titlebar{
-  padding-inline: var(--zen-toolbox-padding) !important;;
+#titlebar {
+  padding-inline: var(--zen-toolbox-padding) !important;
 }
 
-#nav-bar{
+#nav-bar {
   margin-inline: var(--zen-toolbox-padding) !important;
   width: calc(100% - (var(--zen-toolbox-padding) * 2)) !important;
 }
 
-#zen-sidebar-splitter, #zen-appcontent-navbar-container{
+#zen-sidebar-splitter,
+#zen-appcontent-navbar-container,
+#identity-permission-box {
   display: none !important;
 }
 
-#zen-appcontent-wrapper{
+#zen-appcontent-wrapper {
   margin-top: var(--zen-element-separation) !important;
 }
 
-#vertical-pinned-tabs-container{
-  max-height: unset !important;;
+#vertical-pinned-tabs-container {
+  max-height: unset !important;
 }
 
 .browserContainer > findbar {
@@ -43,7 +46,7 @@
   margin-right: var(--zen-element-separation);
   background: var(--zen-colors-tertiary) !important;
   border-radius: var(--zen-border-radius);
-  width: calc( 100% - var(--zen-element-separation) * 2);
+  width: calc(100% - var(--zen-element-separation) * 2);
 }
 
 .browserContainer > findbar,
@@ -51,11 +54,11 @@
   border: 1px solid var(--zen-colors-border) !important;
 }
 
-@media (-moz-bool-pref:"zen.view.compact") {
-  #zen-appcontent-navbar-container{
+@media (-moz-bool-pref: "zen.view.compact") {
+  #zen-appcontent-navbar-container {
     display: none !important;
   }
-  
+
   #zen-appcontent-wrapper,
   #zen-tabbox-wrapper,
   .browserSidebarContainer {
@@ -64,31 +67,43 @@
     overflow: hidden !important;
     --zen-element-separation: -1px !important;
   }
-  
-  #browser{
-  background: none !important;
-}
+
+  #browser {
+    background: none !important;
+  }
 }
 
-@media not (-moz-bool-pref:"zen.view.compact") {
-  .browserSidebarContainer{
-        border-radius: var(--zen-border-radius) !important;;
-  } 
-
+@media not (-moz-bool-pref: "zen.view.compact") {
+  .browserSidebarContainer {
+    border-radius: var(--zen-border-radius) !important;
+  }
 }
 
 @media (-moz-bool-pref: "zen.tabs.vertical") {
-  #navigator-toolbox:is(#navigator-toolbox[zen-user-hover="true"][zen-has-hover], #navigator-toolbox[zen-user-hover="true"]:focus-within, #navigator-toolbox[zen-user-hover="true"][movingtab], #navigator-toolbox[zen-user-hover="true"][flash-popup], #navigator-toolbox[zen-user-hover="true"][has-popup-menu], #navigator-toolbox[zen-user-hover="true"]:has([open="true"]:not(tab):not(#zen-sidepanel-button)), #navigator-toolbox[zen-expanded="true"]:not([zen-user-hover="true"])) {
+  #navigator-toolbox:is(
+      #navigator-toolbox[zen-user-hover="true"][zen-has-hover],
+      #navigator-toolbox[zen-user-hover="true"]:focus-within,
+      #navigator-toolbox[zen-user-hover="true"][movingtab],
+      #navigator-toolbox[zen-user-hover="true"][flash-popup],
+      #navigator-toolbox[zen-user-hover="true"][has-popup-menu],
+      #navigator-toolbox[zen-user-hover="true"]:has(
+          [open="true"]:not(tab):not(#zen-sidepanel-button)
+        ),
+      #navigator-toolbox[zen-expanded="true"]:not([zen-user-hover="true"])
+    ) {
     & #zen-essentials-container {
       --tab-min-height: 47px !important;
     }
   }
 }
 
-#new-tab-button, #reader-mode-button, #tracking-protection-icon-container, #star-button-box{
+#new-tab-button,
+#reader-mode-button,
+#tracking-protection-icon-container,
+#star-button-box {
   display: none !important;
 }
 
-#navigator-toolbox{
+#navigator-toolbox {
   box-shadow: none !important;
 }
