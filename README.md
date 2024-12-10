@@ -1,3 +1,5 @@
+<ins>**I recommend using Zen Twilight as im only testing on that.**</ins>
+
 # zen
 This is my version of a Zen theme, with the goal to resemble the Arc UI theme as closely as possible while moving eveything to the sidebar exclusively.
 
