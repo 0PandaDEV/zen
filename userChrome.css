@@ -2,6 +2,24 @@
   font-family: "CommitMono Nerd Font" !important;
 }
 
+.subviewbutton{
+  margin: unset;
+  width: calc(100%/4);
+  height: 38px;
+}
+
+.subviewbutton:hover{
+  background-color: transparent !important;
+}
+
+#zen-workspaces-button:active{
+  transform: unset !important;
+}
+
+.zen-workspaces-button{
+  justify-content: space-around;
+}
+
 #TabsToolbar #firefox-view-button[open] > .toolbarbutton-icon,
 .tab-background:is([selected], [multiselected]) {
   box-shadow: none !important;
