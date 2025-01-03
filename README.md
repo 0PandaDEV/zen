@@ -11,8 +11,8 @@ A sleek and minimalist Zen theme for Twiglight, designed to emulate the Arc UI t
 5. Download the [`userChrome.css`](https://raw.githubusercontent.com/0PandaDEV/zen/refs/heads/main/userChrome.css) from this repo and place it inside that folder. If there is already a userChrome.css file check its contents and maybe just paste the new content in there instead of replacing the file.
 
 <details>
-<summary>Video Tutorial</summary>
-<video controls src="setup.mp4" title="Title"></video>
+<summary><kbd>Video Tutorial</kbd></summary>
+<video src="https://github.com/user-attachments/assets/c6d0e8d5-5c59-4daa-8e4c-d032910ee281" controls></video>
 </details>
 
 ## Showcase
@@ -20,8 +20,8 @@ A sleek and minimalist Zen theme for Twiglight, designed to emulate the Arc UI t
 ![Zen Theme Screenshot](https://github.com/user-attachments/assets/c9716abe-1ea5-4161-9138-62bf1528009a)
 
 <details>
-<summary>View Video</summary>
-<video src="https://github.com/user-attachments/assets/78225c32-bfe9-47bd-a029-a523678d1bd2" controls title="Disable Windows+V for default clipboard manager"></video>
+<summary><kbd>View Video</kbd></summary>
+<video src="https://github.com/user-attachments/assets/78225c32-bfe9-47bd-a029-a523678d1bd2" controls></video>
 </details>
 
 ## Compatibility
