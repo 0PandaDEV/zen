@@ -21,9 +21,7 @@ A sleek and minimalist Zen theme for Twiglight, designed to emulate the Arc UI t
 
 <details>
 <summary>View Video</summary>
-<video controls>
-  <source src="https://github.com/user-attachments/assets/78225c32-bfe9-47bd-a029-a523678d1bd2">
-</video>
+<video src="https://github.com/user-attachments/assets/78225c32-bfe9-47bd-a029-a523678d1bd2" controls title="Disable Windows+V for default clipboard manager"></video>
 </details>
 
 ## Compatibility
