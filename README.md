@@ -1,19 +1,43 @@
-**Works with following versions:** <br>
-`1.0.1-a.20`<br>
-`1.0.1-a.21`<br>
-`1.0.1-a.22`<br>
-`1.0.2-b.0`<br>
-`1.0.2-b.1`<br>
-`1.0.2-b.2`<br>
-`1.0.2-b.3`
-
-It will always work with the newest Twiglight version as im actively using and that and fixing bugs.
-
 # zen
-This is my version of a Zen theme, with the goal to resemble the Arc UI theme as closely as possible while moving eveything to the sidebar exclusively.
 
-## 💼 Showcase
+A sleek and minimalist Zen theme for Twiglight, designed to emulate the Arc UI theme while consolidating all elements into the sidebar.
 
-![image](https://github.com/user-attachments/assets/c9716abe-1ea5-4161-9138-62bf1528009a)
+## Setup
 
-https://github.com/user-attachments/assets/78225c32-bfe9-47bd-a029-a523678d1bd2
+1. Open `about:profiles` in your browser.
+2. Search for the profile that says `This is the profile in use and it cannot be deleted.`
+3. Click on `Show in file explorer` for the Root Directory
+4. Look for a folder called `chrome` if it does not exist create it
+5. Download the [`userChrome.css`](https://raw.githubusercontent.com/0PandaDEV/zen/refs/heads/main/userChrome.css) from this repo and place it inside that folder. If there is already a userChrome.css file check its contents and maybe just paste the new content in there instead of replacing the file.
+
+<details>
+<summary>Video Tutorial</summary>
+<video controls src="setup.mp4" title="Title"></video>
+</details>
+
+## Showcase
+
+![Zen Theme Screenshot](https://github.com/user-attachments/assets/c9716abe-1ea5-4161-9138-62bf1528009a)
+
+<details>
+<summary>View Video</summary>
+<video controls>
+  <source src="https://github.com/user-attachments/assets/78225c32-bfe9-47bd-a029-a523678d1bd2">
+</video>
+</details>
+
+## Compatibility
+
+Compatible with versions:
+
+- `1.0.1-a.20`
+- `1.0.1-a.21`
+- `1.0.1-a.22`
+- `1.0.2-b.0`
+- `1.0.2-b.1`
+- `1.0.2-b.2`
+- `1.0.2-b.3`
+- `1.0.2-b.4`
+- `1.0.2-b.5`
+
+On top of that the newest Twilight version will always be supported.
