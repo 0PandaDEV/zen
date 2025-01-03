@@ -7,7 +7,7 @@
 `1.0.2-b.2`<br>
 `1.0.2-b.3`
 
-`1.0.2-t.4 (2024-12-19)`
+It will always work with the newest Twiglight version as im actively using and that and fixing bugs.
 
 # zen
 This is my version of a Zen theme, with the goal to resemble the Arc UI theme as closely as possible while moving eveything to the sidebar exclusively.
