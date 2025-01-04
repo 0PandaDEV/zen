@@ -2,6 +2,10 @@
   font-family: "CommitMono Nerd Font" !important;
 }
 
+#urlbar[open][zen-floating-urlbar="true"] {
+  max-width: 100vw !important;;
+}
+
 .subviewbutton {
   margin: unset;
   width: calc(100% / 4);
