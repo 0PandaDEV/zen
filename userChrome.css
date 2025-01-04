@@ -6,7 +6,7 @@
   max-width: 100vw !important;;
 }
 
-.subviewbutton {
+#zen-workspaces-button .subviewbutton {
   margin: unset;
   width: calc(100% / 4);
   height: 38px;
@@ -30,11 +30,6 @@
   border-top: 1px solid #ffffff2d !important;
   border-bottom: 1px solid #0000002d !important;
   background-color: rgba(255, 255, 255, 0.17) !important;
-}
-
-#navigator-toolbox {
-  width: 274px !important;
-  max-width: 270px !important;
 }
 
 #titlebar {
