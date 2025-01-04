@@ -9,6 +9,7 @@ A sleek and minimalist Zen theme for Twiglight, designed to emulate the Arc UI t
 3. Click on `Show in file explorer` for the Root Directory
 4. Look for a folder called `chrome` if it does not exist create it
 5. Download the [`userChrome.css`](https://raw.githubusercontent.com/0PandaDEV/zen/refs/heads/main/userChrome.css) from this repo and place it inside that folder. If there is already a userChrome.css file check its contents and maybe just paste the new content in there instead of replacing the file.
+6. Now restart Zen and the theme should be installed.
 
 <details>
 <summary><kbd>Video Tutorial</kbd></summary>
