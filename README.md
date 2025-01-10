@@ -1,6 +1,6 @@
 # zen
 
-A sleek and minimalist Zen theme for Twiglight, designed to emulate the Arc UI theme while consolidating all elements into the sidebar.
+A sleek and minimalist Zen theme for Twiglight, designed to emulate the Arc UX theme while consolidating all elements into the sidebar. My mission with this project is to replicate the Arc feel and UX as much as possible while still keeping the Zen touch.
 
 ## Setup
 
