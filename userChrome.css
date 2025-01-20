@@ -2,8 +2,16 @@
   font-family: "CommitMono Nerd Font" !important;
 }
 
+:root[zen-compact-mode="true"]:not([customizing]):not([inDOMFullscreen="true"]) {
+  @media (-moz-bool-pref: "zen.view.compact.hide-tabbar") or (-moz-bool-pref: "zen.view.use-single-toolbar") {
+    & #zen-appcontent-wrapper {
+      margin-left: 0 !important;
+    }
+  }
+}
+
 #urlbar[open][zen-floating-urlbar="true"] {
-  max-width: 100vw !important;;
+  max-width: 100vw !important;
 }
 
 #zen-workspaces-button .subviewbutton {
@@ -47,10 +55,6 @@
   display: none !important;
 }
 
-#zen-appcontent-wrapper {
-  margin-top: var(--zen-element-separation) !important;
-}
-
 #vertical-pinned-tabs-container {
   max-height: unset !important;
 }
@@ -83,7 +87,6 @@
     border-radius: 0 !important;
     overflow: hidden !important;
     --zen-element-separation: -1px !important;
-    margin-right: -0.5px !important;
   }
 
   #browser {
@@ -104,9 +107,7 @@
       #navigator-toolbox[zen-user-hover="true"][movingtab],
       #navigator-toolbox[zen-user-hover="true"][flash-popup],
       #navigator-toolbox[zen-user-hover="true"][has-popup-menu],
-      #navigator-toolbox[zen-user-hover="true"]:has(
-          [open="true"]:not(tab):not(#zen-sidepanel-button)
-        ),
+      #navigator-toolbox[zen-user-hover="true"]:has([open="true"]:not(tab):not(#zen-sidepanel-button)),
       #navigator-toolbox[zen-expanded="true"]:not([zen-user-hover="true"])
     ) {
     & #zen-essentials-container {
@@ -124,4 +125,16 @@
 
 #navigator-toolbox {
   box-shadow: none !important;
+}
+
+#back-button {
+  list-style-image: url("https://raw.githubusercontent.com/0PandaDEV/zen/refs/heads/main/icons/Back.svg") !important;
+  scale: 1;
+  filter: brightness(var(--icon-brightness)) !important;
+}
+
+#reload-button {
+  list-style-image: url("https://raw.githubusercontent.com/0PandaDEV/zen/refs/heads/main/icons/Reload.svg") !important;
+  scale: 1.1;
+  filter: brightness(var(--icon-brightness)) !important;
 }
