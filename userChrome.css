@@ -2,6 +2,10 @@
   font-family: "CommitMono Nerd Font" !important;
 }
 
+#zen-tabbox-wrapper{
+  margin: 0 !important;
+}
+
 :root[zen-compact-mode="true"]:not([customizing]):not([inDOMFullscreen="true"]) {
   @media (-moz-bool-pref: "zen.view.compact.hide-tabbar") or (-moz-bool-pref: "zen.view.use-single-toolbar") {
     & #zen-appcontent-wrapper {
@@ -32,7 +36,7 @@
   justify-content: space-around;
 }
 
-#TabsToolbar #firefox-view-button[open] > .toolbarbutton-icon,
+#TabsToolbar #firefox-view-button[open]>.toolbarbutton-icon,
 .tab-background:is([selected], [multiselected]) {
   box-shadow: none !important;
   border-top: 1px solid #ffffff2d !important;
@@ -59,18 +63,7 @@
   max-height: unset !important;
 }
 
-.browserContainer > findbar {
-  position: fixed;
-  bottom: 0px;
-  margin-bottom: var(--zen-element-separation);
-  margin-left: var(--zen-element-separation);
-  margin-right: var(--zen-element-separation);
-  background: var(--zen-colors-tertiary) !important;
-  border-radius: var(--zen-border-radius);
-  width: calc(100% - var(--zen-element-separation) * 2);
-}
-
-.browserContainer > findbar,
+.browserContainer>findbar,
 .findbar-textbox {
   border: 1px solid var(--zen-colors-border) !important;
 }
@@ -96,20 +89,19 @@
 
 @media not (-moz-bool-pref: "zen.view.compact") {
   .browserSidebarContainer {
-    border-radius: var(--zen-border-radius) !important;
+    border-radius: 0 !important;
   }
 }
 
 @media (-moz-bool-pref: "zen.tabs.vertical") {
-  #navigator-toolbox:is(
-      #navigator-toolbox[zen-user-hover="true"][zen-has-hover],
-      #navigator-toolbox[zen-user-hover="true"]:focus-within,
-      #navigator-toolbox[zen-user-hover="true"][movingtab],
-      #navigator-toolbox[zen-user-hover="true"][flash-popup],
-      #navigator-toolbox[zen-user-hover="true"][has-popup-menu],
-      #navigator-toolbox[zen-user-hover="true"]:has([open="true"]:not(tab):not(#zen-sidepanel-button)),
-      #navigator-toolbox[zen-expanded="true"]:not([zen-user-hover="true"])
-    ) {
+
+  #navigator-toolbox:is(#navigator-toolbox[zen-user-hover="true"][zen-has-hover],
+    #navigator-toolbox[zen-user-hover="true"]:focus-within,
+    #navigator-toolbox[zen-user-hover="true"][movingtab],
+    #navigator-toolbox[zen-user-hover="true"][flash-popup],
+    #navigator-toolbox[zen-user-hover="true"][has-popup-menu],
+    #navigator-toolbox[zen-user-hover="true"]:has([open="true"]:not(tab):not(#zen-sidepanel-button)),
+    #navigator-toolbox[zen-expanded="true"]:not([zen-user-hover="true"])) {
     & #zen-essentials-container {
       --tab-min-height: 47px !important;
     }
@@ -125,16 +117,4 @@
 
 #navigator-toolbox {
   box-shadow: none !important;
-}
-
-#back-button {
-  list-style-image: url("https://raw.githubusercontent.com/0PandaDEV/zen/refs/heads/main/icons/Back.svg") !important;
-  scale: 1;
-  filter: brightness(var(--icon-brightness)) !important;
-}
-
-#reload-button {
-  list-style-image: url("https://raw.githubusercontent.com/0PandaDEV/zen/refs/heads/main/icons/Reload.svg") !important;
-  scale: 1.1;
-  filter: brightness(var(--icon-brightness)) !important;
 }
