@@ -48,11 +48,6 @@
   padding-inline: var(--zen-toolbox-padding) !important;
 }
 
-#nav-bar {
-  margin-inline: var(--zen-toolbox-padding) !important;
-  width: calc(100% - (var(--zen-toolbox-padding) * 2)) !important;
-}
-
 #zen-sidebar-splitter,
 #zen-appcontent-navbar-container,
 #identity-permission-box {
