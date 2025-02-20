@@ -2,6 +2,14 @@
   font-family: "CommitMono Nerd Font" !important;
 }
 
+#zen-workspaces-button {
+  &:not([as-button="true"]) {
+    & toolbarbutton {
+      height: auto !important;
+    }
+  }
+}
+
 #zen-tabbox-wrapper{
   margin: 0 !important;
 }
