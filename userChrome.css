@@ -2,10 +2,6 @@
   font-family: "CommitMono Nerd Font" !important;
 }
 
-#preferences-button{
-  display: none;
-}
-
 #zen-workspaces-button {
   &:not([as-button="true"]) {
     & toolbarbutton {
@@ -86,7 +82,7 @@
     border: none !important;
     border-radius: 0 !important;
     overflow: hidden !important;
-    --zen-element-separation: -1px !important;
+    --zen-element-separation: 0px !important;
   }
 
   #browser {
