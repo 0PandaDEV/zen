@@ -2,6 +2,10 @@
   font-family: "CommitMono Nerd Font" !important;
 }
 
+#preferences-button{
+  display: none;
+}
+
 #zen-workspaces-button {
   &:not([as-button="true"]) {
     & toolbarbutton {
