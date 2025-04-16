@@ -2,6 +2,10 @@
   font-family: "CommitMono Nerd Font" !important;
 }
 
+#urlbar-results > .urlbarView-row[type="search_engine"]:first-of-type {
+  display: none !important;
+}
+
 #zen-workspaces-button {
   &:not([as-button="true"]) {
     & toolbarbutton {
@@ -14,12 +18,8 @@
   margin: 0 !important;
 }
 
-:root[zen-compact-mode="true"]:not([customizing]):not([inDOMFullscreen="true"]) {
-  @media (-moz-bool-pref: "zen.view.compact.hide-tabbar") or (-moz-bool-pref: "zen.view.use-single-toolbar") {
-    & #zen-appcontent-wrapper {
-      margin-left: 0 !important;
-    }
-  }
+#zen-appcontent-wrapper {
+  margin: 0 !important;
 }
 
 #urlbar[open][zen-floating-urlbar="true"] {
@@ -82,7 +82,7 @@
     border: none !important;
     border-radius: 0 !important;
     overflow: hidden !important;
-    --zen-element-separation: 0px !important;
+    --zen-element-separation: -1px !important;
   }
 
   #browser {
@@ -97,7 +97,6 @@
 }
 
 @media (-moz-bool-pref: "zen.tabs.vertical") {
-
   #navigator-toolbox:is(#navigator-toolbox[zen-user-hover="true"][zen-has-hover],
     #navigator-toolbox[zen-user-hover="true"]:focus-within,
     #navigator-toolbox[zen-user-hover="true"][movingtab],
