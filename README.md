@@ -24,19 +24,3 @@ A sleek and minimalist Zen theme for Twiglight, designed to emulate the Arc UX t
 <summary><kbd>View Video</kbd></summary>
 <video src="https://github.com/user-attachments/assets/78225c32-bfe9-47bd-a029-a523678d1bd2" controls></video>
 </details>
-
-## Compatibility
-
-Compatible with versions:
-
-- `1.0.1-a.20`
-- `1.0.1-a.21`
-- `1.0.1-a.22`
-- `1.0.2-b.0`
-- `1.0.2-b.1`
-- `1.0.2-b.2`
-- `1.0.2-b.3`
-- `1.0.2-b.4`
-- `1.0.2-b.5`
-
-On top of that the newest Twilight version will always be supported.
