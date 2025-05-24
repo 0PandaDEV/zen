@@ -2,6 +2,10 @@
   font-family: "CommitMono Nerd Font" !important;
 }
 
+#zen-appcontent-navbar-wrapper {
+  display: none !important;
+}
+
 #urlbar-results > .urlbarView-row[type="search_engine"]:first-of-type {
   display: none !important;
 }
