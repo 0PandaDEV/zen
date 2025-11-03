@@ -1,5 +1,6 @@
 * {
-  font-family: "CommitMono Nerd Font" !important;
+  font-family: "CozetteVector" !important;
+  font-size: calc(1em + .05px) !important;
 }
 
 #zen-appcontent-navbar-wrapper {
