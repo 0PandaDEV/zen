@@ -2,15 +2,18 @@
   font-family: "DepartureMono Nerd Font" !important;
 }
 
-#urlbar-results > .urlbarView-row[type="search_engine"]:first-of-type, #zen-copy-url-button {
+#urlbar-results > .urlbarView-row[type="search_engine"]:first-of-type,
+#zen-copy-url-button,
+#zen-appcontent-navbar-wrapper {
   display: none !important;
 }
 
-@media (-moz-bool-pref: "zen.view.compact") {
-  #zen-appcontent-wrapper,
-  .browserSidebarContainer {
-    border: none !important;
-    border-radius: 0 !important;
-    --zen-element-separation: 0px !important;
-  }
+#zen-appcontent-wrapper,
+#zen-tabbox-wrapper,
+.browserSidebarContainer {
+  margin: 0 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  overflow: hidden !important;
+  --zen-element-separation: 0px !important;
 }
