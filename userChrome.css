@@ -2,7 +2,7 @@
   font-family: "DepartureMono Nerd Font" !important;
 }
 
-#urlbar-results > .urlbarView-row[type="search_engine"]:first-of-type {
+#urlbar-results > .urlbarView-row[type="search_engine"]:first-of-type, #zen-copy-url-button {
   display: none !important;
 }
 
